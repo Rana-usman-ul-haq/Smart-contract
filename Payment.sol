@@ -9,6 +9,7 @@ contract PAYMENTS is PaymentSplitter {
     
 }
 /**
+In deploy add
 ["Account Address"]
 and
 [shares]
