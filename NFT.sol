@@ -20,6 +20,7 @@ contract NFT is ERC721, ERC721Enumerable, Ownable {
     //address = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
     //proof = ["0xc21ba819004fa273fb9b334fb970dcc3cf16a4562629c1f49542000b6cd0c655","0xe467c02201f6ccff8dc14d70bf00e8bd2f6d2fc31f703ee3326f1ae45b0569db","0xb49abd4102a5911165e24fb8d9908fce24f2d68b3b60a8b381f5c9b7bda9d7b8","0x8f18f2814d4f4a0e1dce51424e6b609f980996b9934d0ff1844ca9c2e4662a6a"]
     //_root = 0xee09c99c0989bcbc8fe6724e0009475f067dd94a0b35548cede09f53814f0a48
+    //in payments at deploy, launch payment contract and enter its address
 
 
     constructor(bytes32 _root, address _payments) ERC721("NFT", "NF") payable{
