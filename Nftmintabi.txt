@@ -1,6 +1,4 @@
-{
-  "contractName": "MintNFT",
-  "abi": [
+"abi": [
     {
       "anonymous": false,
       "inputs": [
@@ -335,6 +333,19 @@
     },
     {
       "inputs": [],
+      "name": "newFundAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
       "name": "operator",
       "outputs": [
         {
@@ -489,6 +500,19 @@
         }
       ],
       "name": "setFundAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newFundAddress",
+          "type": "address"
+        }
+      ],
+      "name": "setNewFundAddress",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -663,4 +687,3 @@
       "type": "function"
     }
   ]
-}
